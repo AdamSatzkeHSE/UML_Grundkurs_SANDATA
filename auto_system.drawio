@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6" pages="5">
   <diagram name="Anforderungsanalyse" id="tKg5XXAE5uOvNNuM3iOC">
-    <mxGraphModel dx="2013" dy="1225" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1302" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,7 +128,8 @@
           <mxGeometry height="70" width="140" x="570" y="442" as="geometry" />
         </mxCell>
         <mxCell id="pFZ8Wrk2tkU-JRa0Vpnd-27" edge="1" parent="TwhCq0cTRoFp6wGLjpDl-8" source="pFZ8Wrk2tkU-JRa0Vpnd-20" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="pFZ8Wrk2tkU-JRa0Vpnd-25" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
-          <mxGeometry relative="1" width="160" as="geometry">
+          <mxGeometry relative="1" width="160" x="-0.0715" y="28" as="geometry">
+            <mxPoint as="offset" />
             <mxPoint x="490" y="580" as="sourcePoint" />
             <mxPoint x="650" y="580" as="targetPoint" />
           </mxGeometry>
@@ -153,14 +154,14 @@
             <Array as="points">
               <mxPoint x="520" y="55" />
             </Array>
-            <mxPoint x="520" y="120" as="targetPoint" />
+            <mxPoint x="520" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pFZ8Wrk2tkU-JRa0Vpnd-65" parent="TwhCq0cTRoFp6wGLjpDl-8" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Extend mit Guard-Condition&lt;div&gt;extend - optional und zeigt immer auf Basis Use-Case&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="170" x="700" y="30" as="geometry" />
         </mxCell>
         <mxCell id="lAY08q7CXFNsJ8Mvbbc--1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;h3&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;Use-Cases&lt;/font&gt;&lt;/h3&gt;&lt;div&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;UC1: Auto ver-/entriegeln&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;UC2: Motor starten/stoppen&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;UC3: Fahrdaten einsehen&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;UC4: Wetterdaten abfragen&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;UC5: Wetterdaten bereitstellen&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;UC6: Diagnose durchführen&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;UC7: Wartungsdaten einsehen&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;UC8: Fahrzeugdaten abrufen&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;UC9: Fahrzeugdaten liefern&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;UC10: Fahrzeuge überwachen&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;UC11: Warnungen empfangen&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;UC12: Warnungen auslösen&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;UC13: Systemzustand prüfen&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;UC14: Berechtigung prüfen&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;" vertex="1">
-          <mxGeometry height="570" width="690" x="20" y="700" as="geometry" />
+          <mxGeometry height="570" width="670" x="20" y="700" as="geometry" />
         </mxCell>
         <mxCell id="lAY08q7CXFNsJ8Mvbbc--10" edge="1" parent="1" source="TwhCq0cTRoFp6wGLjpDl-4" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lAY08q7CXFNsJ8Mvbbc--4" value="">
           <mxGeometry relative="1" width="160" as="geometry">
@@ -198,7 +199,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TwhCq0cTRoFp6wGLjpDl-7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Externes System&lt;div&gt;(Wetterdienst)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="30" x="1930" y="860" as="geometry" />
+          <mxGeometry height="60" width="30" x="1960" y="860" as="geometry" />
         </mxCell>
         <mxCell id="lAY08q7CXFNsJ8Mvbbc--15" edge="1" parent="1" source="lAY08q7CXFNsJ8Mvbbc--9" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="TwhCq0cTRoFp6wGLjpDl-7" value="">
           <mxGeometry relative="1" width="160" as="geometry">
@@ -229,8 +230,20 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-5DezuEbFT1m6xOkf9Hy-1" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="1) System Check&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2) Sensor Überwachung&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3) Komplette Fahrt starten - bestehend aus letzten zwei Activities&lt;/div&gt;" vertex="1">
+        <mxCell id="-5DezuEbFT1m6xOkf9Hy-1" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="1) Auto verriegeln, Motor starten, System Check&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2) Komplette Fahrt starten - bestehend aus letzten drei Activities&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="250" x="160" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fKYYokYCF8Aq0nry9Z2--6" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Vertical Container" vertex="1">
+          <mxGeometry height="200" width="200" x="830" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fKYYokYCF8Aq0nry9Z2--7" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Vertical Container" vertex="1">
+          <mxGeometry height="200" width="200" x="830" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="fKYYokYCF8Aq0nry9Z2--8" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Vertical Container" vertex="1">
+          <mxGeometry height="200" width="200" x="1070" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fKYYokYCF8Aq0nry9Z2--9" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Vertical Container" vertex="1">
+          <mxGeometry height="200" width="200" x="1070" y="370" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
