@@ -1,0 +1,190 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6" pages="2">
+  <diagram name="Anforderungsanalyse" id="YqSJJECzeSLrmL5LTIEo">
+    <mxGraphModel dx="1107" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ss95rz__1RLRhlweLFFE-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="F1: Der Benutzer kann ein Getränk wählen&lt;div&gt;F2: Die Maschine prüft vor dem Brühvorgang, ob genugend Wasser&lt;/div&gt;&lt;div&gt;F3: Die Maschine prüft vor dem Brühvorgang, ob genügend Bohnen vorhanden sind.&lt;/div&gt;&lt;div&gt;F4: Die Maschine brüht den Kaffee und füllt ihn in die Tasse&lt;/div&gt;&lt;div&gt;F5: Das System soll Fehler erkennen und melden&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="250" x="80" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="ss95rz__1RLRhlweLFFE-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4. Funktionale Anforderungen" vertex="1">
+          <mxGeometry height="30" width="160" x="80" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="ss95rz__1RLRhlweLFFE-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2. Stakeholder" vertex="1">
+          <mxGeometry height="30" width="90" x="80" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="ss95rz__1RLRhlweLFFE-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="- Benutzer&lt;div&gt;- Wartungspersonal&lt;/div&gt;&lt;div&gt;- Hersteller / Techniker&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="250" x="80" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="ss95rz__1RLRhlweLFFE-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1. Ziel" vertex="1">
+          <mxGeometry height="30" width="60" x="80" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ss95rz__1RLRhlweLFFE-6" parent="1" style="whiteSpace=wrap;html=1;" value="Die Kaffeemaschine soll es Benutzern ermöglichen, verschiedene Kaffeegetränke zuzubereiten. Das System steuert automatisch den Brühvorgang und überwacht Ressourcen wie Wasser, Bohnen und Becher. Der Benutzer wird üvber den Status informiert und bei Problemen gewarnt" vertex="1">
+          <mxGeometry height="170" width="250" x="80" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ss95rz__1RLRhlweLFFE-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3. Systemgrenzen" vertex="1">
+          <mxGeometry height="30" width="140" x="60" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="ss95rz__1RLRhlweLFFE-8" parent="1" style="whiteSpace=wrap;html=1;" value="System besteht aus Benutzerschnittstelle (Anzeige) und interner Hardware." vertex="1">
+          <mxGeometry height="60" width="250" x="80" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="ss95rz__1RLRhlweLFFE-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5. Nicht funktionale Anforderungen" vertex="1">
+          <mxGeometry height="30" width="220" x="400" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ss95rz__1RLRhlweLFFE-11" parent="1" style="whiteSpace=wrap;html=1;" value="- Bedienung einfach und intuitiv&lt;div&gt;- Anzeige in vertändliche Bilder&lt;/div&gt;&lt;div&gt;- Touch Screen Oberfläche&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="420" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ss95rz__1RLRhlweLFFE-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="6. Annahmen und Abhängigkeiten" vertex="1">
+          <mxGeometry height="30" width="220" x="400" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="ss95rz__1RLRhlweLFFE-13" parent="1" style="whiteSpace=wrap;html=1;" value="- Benutzer stellt die Tasse bereit&lt;div&gt;- Wasser und Kaffeebohnen sind nachfüllbar&lt;/div&gt;&lt;div&gt;- Reparatur nur durch Wartungspersonal möglich&lt;/div&gt;&lt;div&gt;- Das System soll die Zustände erkennen und eventuelle Fehler melden können.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="250" x="420" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="ss95rz__1RLRhlweLFFE-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7. Use - Cases" vertex="1">
+          <mxGeometry height="30" width="130" x="400" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="ss95rz__1RLRhlweLFFE-15" parent="1" style="whiteSpace=wrap;html=1;" value="UC1: Getränk zubereiten&lt;div&gt;UC2: Wasser nachfüllen&lt;/div&gt;&lt;div&gt;UC3: Bohnen nachfüllen&lt;/div&gt;&lt;div&gt;UC4: Maschine reinigen&lt;/div&gt;&lt;div&gt;UC5: Wartung melden&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="160" x="420" y="580" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="JpGlr1U2mKoZ3aDFBc4R" name="Use-Case Diagramm">
+    <mxGraphModel dx="1845" dy="1123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8bU5eH4vVQVCzr-sWlFC-1" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="800" width="790" x="130" y="70" as="geometry">
+            <mxRectangle height="70" width="100" x="130" y="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bU5eH4vVQVCzr-sWlFC-3" connectable="0" parent="8bU5eH4vVQVCzr-sWlFC-1" style="group" value="" vertex="1">
+          <mxGeometry height="440" width="500" x="120" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="BrhIo3WT56xQqP20LCbs-1" parent="8bU5eH4vVQVCzr-sWlFC-3" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Benutzer" vertex="1">
+          <mxGeometry height="60" width="30" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BrhIo3WT56xQqP20LCbs-2" parent="8bU5eH4vVQVCzr-sWlFC-3" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="System" vertex="1">
+          <mxGeometry height="60" width="30" x="470" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BrhIo3WT56xQqP20LCbs-3" parent="8bU5eH4vVQVCzr-sWlFC-3" style="ellipse;whiteSpace=wrap;html=1;" value="Getränk zubereiten" vertex="1">
+          <mxGeometry height="70" width="140" x="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BrhIo3WT56xQqP20LCbs-4" parent="8bU5eH4vVQVCzr-sWlFC-3" style="ellipse;whiteSpace=wrap;html=1;" value="Wasser nachfüllen" vertex="1">
+          <mxGeometry height="70" width="140" x="130" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BrhIo3WT56xQqP20LCbs-5" parent="8bU5eH4vVQVCzr-sWlFC-3" style="ellipse;whiteSpace=wrap;html=1;" value="Bohnen nachfüllen" vertex="1">
+          <mxGeometry height="70" width="140" x="110" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="XJPtxIggFix7YWvQgze3-1" parent="8bU5eH4vVQVCzr-sWlFC-3" style="ellipse;whiteSpace=wrap;html=1;" value="Maschine reinigen" vertex="1">
+          <mxGeometry height="70" width="140" x="90" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="XJPtxIggFix7YWvQgze3-4" edge="1" parent="8bU5eH4vVQVCzr-sWlFC-3" source="BrhIo3WT56xQqP20LCbs-1" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;" target="BrhIo3WT56xQqP20LCbs-3" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="100" y="200" as="sourcePoint" />
+            <mxPoint x="260" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJPtxIggFix7YWvQgze3-5" edge="1" parent="8bU5eH4vVQVCzr-sWlFC-3" source="BrhIo3WT56xQqP20LCbs-1" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;" target="BrhIo3WT56xQqP20LCbs-4" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="100" y="200" as="sourcePoint" />
+            <mxPoint x="260" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJPtxIggFix7YWvQgze3-6" edge="1" parent="8bU5eH4vVQVCzr-sWlFC-3" source="BrhIo3WT56xQqP20LCbs-1" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;" target="BrhIo3WT56xQqP20LCbs-5" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="100" y="200" as="sourcePoint" />
+            <mxPoint x="260" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJPtxIggFix7YWvQgze3-7" edge="1" parent="8bU5eH4vVQVCzr-sWlFC-3" source="XJPtxIggFix7YWvQgze3-9" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;" target="BrhIo3WT56xQqP20LCbs-2" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="100" y="200" as="sourcePoint" />
+            <mxPoint x="260" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJPtxIggFix7YWvQgze3-8" edge="1" parent="8bU5eH4vVQVCzr-sWlFC-3" source="BrhIo3WT56xQqP20LCbs-1" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;" target="XJPtxIggFix7YWvQgze3-1" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="100" y="200" as="sourcePoint" />
+            <mxPoint x="260" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJPtxIggFix7YWvQgze3-9" parent="8bU5eH4vVQVCzr-sWlFC-3" style="ellipse;whiteSpace=wrap;html=1;" value="Wartung Melden" vertex="1">
+          <mxGeometry height="70" width="140" x="340" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="XJPtxIggFix7YWvQgze3-10" edge="1" parent="8bU5eH4vVQVCzr-sWlFC-3" source="XJPtxIggFix7YWvQgze3-9" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="XJPtxIggFix7YWvQgze3-1" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="100" y="300" as="sourcePoint" />
+            <mxPoint x="260" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bU5eH4vVQVCzr-sWlFC-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Kaffeemaschine" vertex="1">
+          <mxGeometry height="620" width="800" x="130" y="900" as="geometry">
+            <mxRectangle height="30" width="130" x="130" y="900" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bU5eH4vVQVCzr-sWlFC-4" connectable="0" parent="8bU5eH4vVQVCzr-sWlFC-2" style="group" value="" vertex="1">
+          <mxGeometry height="440" width="500" x="200" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8bU5eH4vVQVCzr-sWlFC-5" parent="8bU5eH4vVQVCzr-sWlFC-4" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Benutzer" vertex="1">
+          <mxGeometry height="60" width="30" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8bU5eH4vVQVCzr-sWlFC-6" parent="8bU5eH4vVQVCzr-sWlFC-4" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="System" vertex="1">
+          <mxGeometry height="60" width="30" x="470" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8bU5eH4vVQVCzr-sWlFC-7" parent="8bU5eH4vVQVCzr-sWlFC-4" style="ellipse;whiteSpace=wrap;html=1;" value="Getränk zubereiten" vertex="1">
+          <mxGeometry height="70" width="140" x="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8bU5eH4vVQVCzr-sWlFC-8" parent="8bU5eH4vVQVCzr-sWlFC-4" style="ellipse;whiteSpace=wrap;html=1;" value="Wasser nachfüllen" vertex="1">
+          <mxGeometry height="70" width="140" x="130" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8bU5eH4vVQVCzr-sWlFC-9" parent="8bU5eH4vVQVCzr-sWlFC-4" style="ellipse;whiteSpace=wrap;html=1;" value="Bohnen nachfüllen" vertex="1">
+          <mxGeometry height="70" width="140" x="110" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="8bU5eH4vVQVCzr-sWlFC-10" parent="8bU5eH4vVQVCzr-sWlFC-4" style="ellipse;whiteSpace=wrap;html=1;" value="Maschine reinigen" vertex="1">
+          <mxGeometry height="70" width="140" x="90" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="8bU5eH4vVQVCzr-sWlFC-11" edge="1" parent="8bU5eH4vVQVCzr-sWlFC-4" source="8bU5eH4vVQVCzr-sWlFC-5" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;" target="8bU5eH4vVQVCzr-sWlFC-7" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="100" y="200" as="sourcePoint" />
+            <mxPoint x="260" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bU5eH4vVQVCzr-sWlFC-12" edge="1" parent="8bU5eH4vVQVCzr-sWlFC-4" source="8bU5eH4vVQVCzr-sWlFC-5" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;" target="8bU5eH4vVQVCzr-sWlFC-8" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="100" y="200" as="sourcePoint" />
+            <mxPoint x="260" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bU5eH4vVQVCzr-sWlFC-13" edge="1" parent="8bU5eH4vVQVCzr-sWlFC-4" source="8bU5eH4vVQVCzr-sWlFC-5" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;" target="8bU5eH4vVQVCzr-sWlFC-9" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="100" y="200" as="sourcePoint" />
+            <mxPoint x="260" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bU5eH4vVQVCzr-sWlFC-14" edge="1" parent="8bU5eH4vVQVCzr-sWlFC-4" source="8bU5eH4vVQVCzr-sWlFC-16" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;" target="8bU5eH4vVQVCzr-sWlFC-6" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="100" y="200" as="sourcePoint" />
+            <mxPoint x="260" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bU5eH4vVQVCzr-sWlFC-15" edge="1" parent="8bU5eH4vVQVCzr-sWlFC-4" source="8bU5eH4vVQVCzr-sWlFC-5" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;" target="8bU5eH4vVQVCzr-sWlFC-10" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="100" y="200" as="sourcePoint" />
+            <mxPoint x="260" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bU5eH4vVQVCzr-sWlFC-16" parent="8bU5eH4vVQVCzr-sWlFC-4" style="ellipse;whiteSpace=wrap;html=1;" value="Wartung Melden" vertex="1">
+          <mxGeometry height="70" width="140" x="340" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="8bU5eH4vVQVCzr-sWlFC-17" edge="1" parent="8bU5eH4vVQVCzr-sWlFC-4" source="8bU5eH4vVQVCzr-sWlFC-16" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="8bU5eH4vVQVCzr-sWlFC-10" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="100" y="300" as="sourcePoint" />
+            <mxPoint x="260" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
